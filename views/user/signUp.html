@@ -1,0 +1,47 @@
+<%-include ../include/header.html%>
+<div class="container">
+    <form class="form-horizontal" role="form" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">用户名</label>
+            <div class="col-sm-7">
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-user"></span></div>
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="请输入用户名(4-8位)" name="username" minlength="4" maxlength="8">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-7">
+               <div class="input-group">
+                   <div class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></div>
+                   <input type="password" class="form-control" id="inputPassword3" placeholder="请输入密码（6-12位）" name="password" minlength="6" maxlength="12">
+               </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-7">
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></div>
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email" name="email">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="avatar" class="control-label col-md-2">头像</label>
+            <div class="col-md-3">
+                <div class="input-group">
+                    <div class="input-group-addon"><span class="glyphicon glyphicon-cloud-upload"></span></div>
+                    <input type="file" class="form-control" id="avatar" placeholder="请上传头像(小于1M)" name="avatar" data-file_type="png|gif|jpeg" data-max_size="1048576">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-8">
+                <input type="submit" class="btn btn-primary" value="sign Up">
+            </div>
+        </div>
+    </form>
+</div>
+<%-include ../include/footer.html%>

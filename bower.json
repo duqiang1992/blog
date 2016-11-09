@@ -1,0 +1,20 @@
+{
+  "name": "myBlog",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "duqiang8b <382646943@qq.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
